@@ -16,6 +16,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [Examples of use](#examples-of-use)
 * [Bugs](#bugs)
 * [Authors](#authors)
+* [Update](#update)
 * [License](#license)
 
 ## Environment
@@ -154,7 +155,7 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Oluwaseyi Akintola - [Github](https://github.com/alexoluwaseyi) __<br>
+Oluwaseyi Akintola - [Github](https://github.com/alexoluwaseyi) <br>
 Jennifer Oreffo - [Github](https://github.com//jenniferoreffo)
 
 ## Update
