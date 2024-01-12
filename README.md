@@ -154,7 +154,7 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Oluwaseyi Akintola - [Github](https://github.com/alexoluwaseyi) \n
+Oluwaseyi Akintola - [Github](https://github.com/alexoluwaseyi) _
 Jennifer Oreffo - [Github](https://github.com//jenniferoreffo)
 
 ## Update
