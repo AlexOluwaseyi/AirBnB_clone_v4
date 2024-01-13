@@ -1,11 +1,15 @@
-$(document).ready(function() {
-  let selectedAmenities = {};
+$(document).ready(function () {
+  const selectedAmenities = {};
 
-  $('.checkbox').on('click', function() {
-    let amenityId = $(this).data('id');
-    let amenityName = $(this).data('name');
+  $('.checkbox').on('click', function () {
+    const amenityId = $(this).data('id');
+    const amenityName = $(this).data('name');
 
-    selectedAmenities[amenityId] = amenityName;
+    if (Object.prototype.hasOwnProperty.call(selectedAmenities, amenityId)) {
+      delete selectedAmenities[amenityId];
+    } else {
+      selectedAmenities[amenityId] = amenityName;
+    }
 
     $('.amenities h4').text(Object.values(selectedAmenities).join(', '));
   });
