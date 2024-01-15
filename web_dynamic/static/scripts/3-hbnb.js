@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     // fetching data about places
     $.post({
-	    url: '${HOST}/api/v1/places_search',
+	    url: 'http://0.0.0.0:5001/api/v1/places_search',
 	    data: JSON.stringify({}),
 	    headers: {
 		    "Content-Type": "application/json",
