@@ -13,11 +13,10 @@ $(document).ready(function () {
 
     $('.amenities h4').text(Object.values(selectedAmenities).join(', '));
   });
-});
 
     // getting the status of API
 
-    $.getJSON("http://0.0.0.0:5001/api/v1/status/", (data) => {
+    $.get('http://0.0.0.0:5001/api/v1/status/', function (data) {
 	    if (data.status === "OK") {
 		    $("div#api_status").addClass("available");
 	    } else {

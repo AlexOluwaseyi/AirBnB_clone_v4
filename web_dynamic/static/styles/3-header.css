@@ -3,7 +3,7 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
 
 }
@@ -14,21 +14,15 @@ header .logo {
     height: 100%;
 }
 
-header #api-status {
+#api_status {
     width: 40px;
     height: 40px;
     border-radius: 100px;
-    border: 2px solid #CCCCCC;
+    background-color: #CCCCCC;
     margin-right: 30px;
     align-self: center;
 }
 
-header .available {
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    border: 2px solid #CCCCCC;
-    margin-right: 30px;
-    align-self: center;
+#api_status.available {
     background-color: #ff545f;
 }

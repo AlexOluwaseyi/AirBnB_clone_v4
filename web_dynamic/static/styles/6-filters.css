@@ -22,7 +22,7 @@ button:hover {
     opacity: 0.9;
 }
 .filters div {
-    display: inline-block !important;
+    display: inline-grid;
 }
 .filters h2 {
     margin-left: 15%;
